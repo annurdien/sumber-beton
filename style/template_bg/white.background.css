@@ -2,6 +2,18 @@
 .white .services-block-wrapper:before,
 body.white {
 	background: #e1e1e1;
+	/* font-family: 'Dosis'; */
+}
+p.tititable {
+	font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+	font-weight: 600;
+    line-height: 1.7em;
+}
+p {
+	font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    line-height: 1.7em;
 }
 .white .price-wrapper{
 	background: #000;
@@ -46,7 +58,7 @@ body.white {
 .white .skills-block em,
 .white .member-block-wrapper .name,
 .white .skills-block .skills-name{
-	color: #666;
+	color: #000;
 }
 .white .title .title-bg{
 	color: #d5d5d5;

@@ -362,34 +362,34 @@
 	/*----------  //PORTFOLIO GALLERY  ----------*/
 
 	/*----------  FUNCTION FOR SWITCH THEME COLOR  ----------*/
-	if($('.picker-btn').length){
-		$('.picker-btn').on('click', function(){
-			if(parseInt($('.color-picker').css('right')) == 0){
-				$('.color-picker').stop().animate({'right': -160}, 500);
-			}else{
-				$('.color-picker').stop().animate({'right': 0}, 500);
-			}
-		});
-		$('.color-picker .pwrapper div.color').on('click', function(){
-			$('body').removeClass('lightgreen blue green lightred red yellow turquoise pink purple');
-			$('body').addClass($(this).attr('data-color'));
-		});
-		$('.color-picker .pwrapper div.bg').on('click', function(){
-			$('body').removeClass('white black');
-			$('body').addClass($(this).attr('data-color'));
-			if($(this).attr('data-color') == 'black'){
-                $('.clients img').each(function(){
-                    var src = $(this).attr('src');
-                    $(this).attr('src', src.replace(/clients\//,'clients/black-'))
-                })
-            }else{
-                $('.clients img').each(function(){
-                    var src = $(this).attr('src');
-                    $(this).attr('src', src.replace(/clients\/black-/,'clients/'))
-                })
-            }
-		});
-	}
+	// if($('.picker-btn').length){
+	// 	$('.picker-btn').on('click', function(){
+	// 		if(parseInt($('.color-picker').css('right')) == 0){
+	// 			$('.color-picker').stop().animate({'right': -160}, 500);
+	// 		}else{
+	// 			$('.color-picker').stop().animate({'right': 0}, 500);
+	// 		}
+	// 	});
+	// 	$('.color-picker .pwrapper div.color').on('click', function(){
+	// 		$('body').removeClass('lightgreen blue green lightred red yellow turquoise pink purple');
+	// 		$('body').addClass($(this).attr('data-color'));
+	// 	});
+	// 	$('.color-picker .pwrapper div.bg').on('click', function(){
+	// 		$('body').removeClass('white black');
+	// 		$('body').addClass($(this).attr('data-color'));
+	// 		if($(this).attr('data-color') == 'black'){
+    //             $('.clients img').each(function(){
+    //                 var src = $(this).attr('src');
+    //                 $(this).attr('src', src.replace(/clients\//,'clients/black-'))
+    //             })
+    //         }else{
+    //             $('.clients img').each(function(){
+    //                 var src = $(this).attr('src');
+    //                 $(this).attr('src', src.replace(/clients\/black-/,'clients/'))
+    //             })
+    //         }
+	// 	});
+	// }
 	/*----------  //FUNCTION FOR SWITCH THEME COLOR  ----------*/
 
 	/*----------  VIDEO  ----------*/
