@@ -139,13 +139,13 @@
 		}
 		/*----------  //ANIMATION FOR HEADER  ----------*/
 
-		/*----------  ANIMATION FOR SKILLS  ----------*/
-		if(parseInt($('.skills').offset().top)+shift < scroll){
-			if($('.skills').hasClass('animate')){
-				$('.skills').removeClass('animate');
-			}
-		}
-		/*----------  //ANIMATION FOR SKILLS  ----------*/
+		// /*----------  ANIMATION FOR SKILLS  ----------*/
+		// if(parseInt($('.skills').offset().top)+shift < scroll){
+		// 	if($('.skills').hasClass('animate')){
+		// 		$('.skills').removeClass('animate');
+		// 	}
+		// }
+		// /*----------  //ANIMATION FOR SKILLS  ----------*/
 
 		/*----------  ANIMATION FOR ABOUT  ----------*/
 		if(parseInt($('#about').offset().top)+shift < scroll){
@@ -233,20 +233,20 @@
 		}
 		/*----------  //ANIMATION FOR PORTFOLIO  ----------*/
 
-		/*----------  ANIMATION FOR CLIENTS  ----------*/
-		if(parseInt($('.clients').offset().top)+shift < scroll){
-			if($('.clients').hasClass('animate')){
-				$('.clients').removeClass('animate');
-			}
-		}
-		/*----------  //ANIMATION FOR CLIENTS  ----------*/
+		// /*----------  ANIMATION FOR CLIENTS  ----------*/
+		// if(parseInt($('.clients').offset().top)+shift < scroll){
+		// 	if($('.clients').hasClass('animate')){
+		// 		$('.clients').removeClass('animate');
+		// 	}
+		// }
+		// /*----------  //ANIMATION FOR CLIENTS  ----------*/
 
-		/*----------  ANIMATION FOR FEEDBACK  ----------*/
-		if(parseInt($('.feedback').offset().top)+shift < scroll){
-			if($('.feedback').hasClass('animate')){
-				$('.feedback').removeClass('animate');
-			}
-		}
+		// /*----------  ANIMATION FOR FEEDBACK  ----------*/
+		// if(parseInt($('.feedback').offset().top)+shift < scroll){
+		// 	if($('.feedback').hasClass('animate')){
+		// 		$('.feedback').removeClass('animate');
+		// 	}
+		// }
 		/*----------  //ANIMATION FOR FEEDBACK  ----------*/
 
 		// /*----------  ANIMATION FOR PRICING  ----------*/
@@ -260,24 +260,24 @@
 		// }
 		// /*----------  //ANIMATION FOR PRICING  ----------*/
 
-		/*----------  ANIMATION FOR BUY NOW  ----------*/
-		if(parseInt($('.buy-now').offset().top)+shift < scroll){
-			if($('.buy-now').hasClass('animate')){
-				$('.buy-now').removeClass('animate');
-			}
-		}
-		/*----------  //ANIMATION FOR BUY NOW  ----------*/
+		// /*----------  ANIMATION FOR BUY NOW  ----------*/
+		// if(parseInt($('.buy-now').offset().top)+shift < scroll){
+		// 	if($('.buy-now').hasClass('animate')){
+		// 		$('.buy-now').removeClass('animate');
+		// 	}
+		// }
+		// /*----------  //ANIMATION FOR BUY NOW  ----------*/
 
-		/*----------  ANIMATION FOR PRICING  ----------*/
-		if(parseInt($('#contacts').offset().top)+shift < scroll){
-			if($('#contacts').hasClass('animate')){
-				$('#contacts').removeClass('animate');
-			}
+		// /*----------  ANIMATION FOR PRICING  ----------*/
+		// if(parseInt($('#contacts').offset().top)+shift < scroll){
+		// 	if($('#contacts').hasClass('animate')){
+		// 		$('#contacts').removeClass('animate');
+		// 	}
 			
-			$('#mainNavi a').removeClass('active');
-			$("a[href='#contacts']:eq(0)").addClass('active');
-		}
-		/*----------  //ANIMATION FOR PRICING  ----------*/
+		// 	$('#mainNavi a').removeClass('active');
+		// 	$("a[href='#contacts']:eq(0)").addClass('active');
+		// }
+		// /*----------  //ANIMATION FOR PRICING  ----------*/
 	}
 
 	/*----------  FUNCTION FOR WINDOW SCROLL  ----------*/
